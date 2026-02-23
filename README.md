@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Cisco](https://img.shields.io/badge/Cisco-CUCM%20v11.5%20--%20v15-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 Bu proje, **Cisco Unified Communications Manager (CUCM)** altyapısında bulunan IP telefonların ve cihazların gerçek zamanlı IP adreslerini toplamak için geliştirilmiş bir otomasyon aracıdır. Proje, özellikle büyük ölçekli ses networklerinde envanter takibi ve troubleshooting süreçlerini manuel olmaktan kurtarıp otomatik hale getirir.
 
@@ -38,4 +37,5 @@ REGISTERED: SEP009E1EDF1A22 -> 192.168.1.1
 Toplam Aktif Cihaz Sayısı: 1478
 
 ```
+
 
