@@ -11,7 +11,7 @@ Bu script iki temel Cisco servisini birleştirir:
 2. **RISPort (Real-time Information Service):** Cihazların o andaki "Registered" durumunu ve aktif IPv4 adreslerini çekmek için kullanılır.
 
 ### Öne Çıkan Özellikler
-- **Dinamik Model Filtreleme:** Kullanıcı girişi ile belirli bir modele (Örn: 7841, 8821) veya tüm envantere odaklanma.
+- **Model Filtreleme:** Kullanıcı girişi ile belirli bir modele (Örn: 7841, 8821) veya tüm envantere odaklanma.
 - **Akıllı Rate Limiting:** Cisco RISPort servisinin uyguladığı **dakikada 15 istek** limitini aşmamak için arka planda `time.sleep` mekanizması ile hız yönetimi yapar.
 
 ## Gereksinimler
@@ -32,10 +32,12 @@ REGISTERED: SEP009E1EDF1A22 -> 192.168.1.1
 ...
 ...
 ...
+REGISTERED: SEP7A8F2DFC3A45 -> 192.168.1.22
 [OK] Sonuçlar 'cucm_registered_ips.txt' dosyasına yazıldı.
 
 Toplam Aktif Cihaz Sayısı: 1478
 
 ```
+
 
 
